@@ -18,10 +18,6 @@ This project analyzes hiring data from a company to uncover patterns in gender d
 - Removed 393 rows with "Don't want to say" and 15 with hyphens in `event_name`.
 - Deleted rows with missing values in `Post Name`.
 
-### ❌ Why Not Use Imputation?
-- Gender (categorical) could not be imputed without bias.
-- Creating a new category would mislead the gender analysis.
-- Most frequent value imputation was avoided to preserve balance.
 
 ---
 
